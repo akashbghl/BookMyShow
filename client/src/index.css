@@ -1,0 +1,50 @@
+.hero-slider {
+    position: relative;
+    width: 100%;
+    scroll-behavior: smooth;
+    animation-name: slider;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    transition-duration: 3s;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(-910px);
+  }
+  15% {
+    transform: translateX(-910px);
+  }
+  25% {
+    transform: translateX(-910px);
+  }
+  35% {
+    transform: translateX(-1990px);
+  }
+  
+  45% {
+    transform: translateX(-1990px);
+  }
+  
+  55% {
+    transform: translateX(-1990px);
+  }
+  65% {
+    transform: translateX(-3085px);
+  }
+  75% {
+    transform: translateX(-3085px);
+  }
+  80% {
+    transform: translateX(-3085px);
+  }
+  90%{
+    transform: translateX(0);
+  }
+  96%{
+    transform: translate(0);
+  }
+  100% {
+    transform: translateX(-910px);
+  }
+}
